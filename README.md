@@ -46,28 +46,28 @@ A lightweight compiler and stack-based virtual machine implemented in C++. The p
 
 **INPUT**
 
-        x = 3 * (2 + 4);
-        print x;
+    x = 3 * (2 + 4);
+    print x;
         
-        print 7 >= 7 && 6 <= 6;
-        print 1 || 0;
-        print !(0);
+    print 7 >= 7 && 6 <= 6;
+    print 1 || 0;
+    print !(0);
 
 **OUTPUT**
 
-        18
-        1
-        1
-        1
+    18
+    1
+    1
+    1
 
 SAMPLE REPL SESSION IN TERMINAL:
 
-        >>> x = 5 + 10;
-        >>> print x;
-        15
-        >>> print x > 7 && x < 20;
-        1
-        >>> exit
+    >>> x = 5 + 10;
+    >>> print x;
+    15
+    >>> print x > 7 && x < 20;
+    1
+    >>> exit
 
 
 
