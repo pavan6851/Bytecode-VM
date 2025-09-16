@@ -11,6 +11,7 @@ A lightweight compiler and stack-based virtual machine implemented in C++. The p
 • Bytecode compiler converting AST nodes into stack-based instructions.
 
 • Virtual Machine supporting:
+
     • Arithmetic operators: +, -, *, /, %
 
     
