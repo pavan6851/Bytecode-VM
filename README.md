@@ -5,5 +5,12 @@ A lightweight compiler and stack-based virtual machine implemented in C++. The p
 **Features**
 
 • Lexer for tokenizing identifiers, numbers, operators, and keywords.
+
 • Recursive descent parser for AST (Abstract Syntax Tree) construction.
 
+• Bytecode compiler converting AST nodes into stack-based instructions.
+
+• Virtual Machine supporting:
+    • Arithmetic operators: +, -, *, /, %
+
+    
