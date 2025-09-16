@@ -13,5 +13,9 @@ A lightweight compiler and stack-based virtual machine implemented in C++. The p
 • Virtual Machine supporting:
 
     • Arithmetic operators: +, -, *, /, %
-
+    • Comparison operators: ==, !=, <, <=, >, >=
+    • Logical operators: &&, ||, !
+    • Variables and assignment
+    • Print statements
+    • Interactive REPL for testing programs and expressions.
     
