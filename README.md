@@ -60,7 +60,7 @@ A lightweight compiler and stack-based virtual machine implemented in C++. The p
     1
     1
 
-SAMPLE REPL SESSION IN TERMINAL:
+**SAMPLE REPL SESSION IN TERMINAL:**
 
     >>> x = 5 + 10;
     >>> print x;
