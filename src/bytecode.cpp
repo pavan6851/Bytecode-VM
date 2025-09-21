@@ -17,7 +17,7 @@ void generateBytecode(const ASTNode* node, std::vector<Instruction>& instruction
         else if (bin->op == "-") instructions.push_back({OpCode::SUB, ""});
         else if (bin->op == "*") instructions.push_back({OpCode::MUL, ""});
         else if (bin->op == "/") instructions.push_back({OpCode::DIV, ""});
-        else if (bin->op == "%") instructions.emplace_back({OpCode::MOD, ""});
+        else if (bin->op == "%") instructions.push_back({OpCode::MOD, ""});
 
         // 🔹 New comparison operators
         else if (bin->op == "==") instructions.push_back({OpCode::CMP_EQ, ""});
